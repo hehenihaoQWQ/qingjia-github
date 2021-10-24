@@ -1,0 +1,146 @@
+body {
+    background-color: #ecf0f1;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer, .layui-form-checkbox span {
+    white-space: unset;
+}
+
+.item-state {
+    float: right;
+    font-weight: bolder;
+    color: #000;
+}
+
+.layui-panel {
+    padding: 15px;
+    margin: 8px auto;
+}
+
+.layui-form {
+    background-color: #fff;
+    padding: 10px 0 50px 0;
+}
+
+.layui-form-item {
+    margin: 5px;
+}
+
+.layui-form-radio {
+    margin-bottom: 2px;
+}
+
+.layui-form-radio:hover *,
+.layui-form-radioed,
+.layui-form-radioed > i {
+    color: #1E9FFF;
+}
+
+.layui-form-select dl dd.layui-this {
+    background-color: #1E9FFF;
+}
+
+.layui-form-checked[lay-skin="primary"] i {
+    background-color: #1E9FFF !important;
+    border-color: #1E9FFF;
+}
+
+.layui-form-select dl {
+    top: 40px;
+    padding: 0;
+}
+
+
+.layui-form-pane .layui-form-label {
+    width: 160px;
+}
+
+.layui-form-pane .layui-input-block {
+    margin-left: 160px;
+}
+
+/*================= 二维码 ===================*/
+#qrcode img {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/*================= 百度地图 ===================*/
+#map {
+    height: 200px;
+}
+
+/*================== 步骤条 ====================*/
+#step {
+    margin-bottom: 15px;
+}
+
+#step .layui-progress {
+    width: 75%;
+    background-color: #1E9FFF;
+    border-radius: 50%;
+    color: #fff;
+    border: 0;
+    position: absolute;
+    transform: translateY(-350%);
+    left: 12.5%;
+}
+
+#step i {
+    background-color: #1E9FFF;
+    border-radius: 50%;
+    color: #fff;
+    border: 0;
+    font-size: 2rem;
+    position: relative;
+    transform: translateY(100%);
+}
+
+#step .step-icon {
+    width: 24%;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+}
+
+.check-btn {
+    padding: 5px 0;
+}
+
+.img-state {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+.img-state img {
+    width: 90%;
+}
+
+.msg {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-indent: 2em;
+    line-height: 24px;
+}
+
+.header {
+    background: rgb(40, 141, 159);
+    color: #fff;
+}
+
+.footer {
+    text-align: center;
+}
+
+.applies {
+    padding-bottom: 100px;
+}

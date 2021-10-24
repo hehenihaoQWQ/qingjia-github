@@ -3,9 +3,26 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- <title><%= htmlWebpackPlugin.options.title %></title> -->
+    <title>易请销假</title>
+    <!-- jquery -->
+    <script src="../src/assets/resources/jquery-3.6.0.js"></script>
+    <!-- layui -->
+    <!-- 已添加 -->
+    <link rel="stylesheet" href="../src/assets/layui/css/layui.css">
+    <link id="layuicss-skincodecss" rel="stylesheet" href="../src/assets/resources/code.css" media="all">
+    <link id="layuicss-laydate" rel="stylesheet" href="../src/assets/layui/css/modules/laydate/default/laydate.css" media="all">
+
+    <!-- 未添加 -->
+    <script src="../src/assets/layui/layui.js"></script>
+    <link id="layuicss-layer" rel="stylesheet" href="../src/assets/resources/layer.css" media="all">
+
+    <!-- 自定义样式 -->
+    <link rel="stylesheet" href="../src/assets/resources/style.css">
+    <!-- 自定义js -->
+    <script src="../src/assets/resources/main.js"></script>
   </head>
   <body>
     <noscript>
@@ -15,3 +32,11 @@
     <!-- built files will be auto injected -->
   </body>
 </html>
+<style>
+  * {
+    /* -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none; */
+  }
+</style>

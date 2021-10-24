@@ -1,0 +1,14 @@
+{
+  "name": "qingjiabot",
+  "version": "1.0.0",
+  "description": "yiban qingjia bot",
+  "main": "wechatbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "drenal",
+  "license": "ISC",
+  "dependencies": {
+    "wechaty": "^0.68.1"
+  }
+}
