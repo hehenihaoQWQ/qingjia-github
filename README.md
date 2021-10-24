@@ -24,7 +24,7 @@
   //用户数据表
   create table usrdata
   (
-  		name char(10) not null,   
+  	  name char(10) not null,   
       id char(14) not null primary key,  
       clg char(15) not null,   
       mjcls char(30) not null,  
@@ -45,7 +45,7 @@
   //动态密码表
   create table dynamicpsw
   (
-  		psw char(8) not null,
+  	  psw char(8) not null,
       time datetime not null
   );
   ```
